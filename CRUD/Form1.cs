@@ -12,6 +12,7 @@ namespace CRUD
             cConnection = Conexion.obtenerConexion();
             //Obtain user
             getUsers();
+            new CRUD.Lib.Faturacion.Facturacion();
         }
 
         private void getUsers()
